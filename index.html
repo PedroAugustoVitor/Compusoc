@@ -14,52 +14,136 @@
 		</script>
 	</head>
 	<body data-spy="scroll" data-target="#navbar">
-		<nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand">Compusoc</a>
-				</div>
+        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    
+                    <a class="navbar-brand">Compusoc</a>
+                </div>
 
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#idea">Ideia Principal</a></li>
-						<li><a href="#team">Equipe</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li role="separator" class="divider"></li>
-								<li class="dropdown-header">Nav header</li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="container">
-			<div class="jumbotron" id="idea">
-				<h1 class="text-center">Ideia Principal</h1>
-				<p>Boa noite, nós iremos falar sobre o incentivo a Ciência da Computação e principalmente a programação nos níveis básicos da educação.
-				Pensamos em várias maneiras de apresentar o conteúdo, aprensentação de slides, vídeos, etc, até que veio pensamos, qual melhor jeito de falar sobre programação, se não construindo códigos.</p>
-			</div>
-		</div>
-		<div class="container">
-			<div class="jumbotron" id="team">
-				<h2>Quem somos</h2>
-				<img src="img/pedro.jpg" class="img-circle"></img>
-				<p class="text-center">Pedro Augusto</p>
-				
-			</div>
-		</div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#idea">Ideia Principal</a></li>
+                        <li><a href="#team">Equipe</a></li>
+                        <li><a href="#cont">Conteúdo</a></li>
+                        <li><a href="#examples">Exemplos</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron" id="idea">
+                <div class="container">
+                    <h2 class="text-center">Ideia Principal</h2>
+                    <div class="well">
+                        <p>Boa noite, nós iremos falar sobre o incentivo a Ciência da Computação e principalmente a programação nos níveis básicos da educação acadêmica.
+                        Pensamos em várias maneiras de apresentar o conteúdo, aprensentação de slides, vídeos, etc, até que veio pensamos, qual melhor jeito de falar sobre programação, se não construindo códigos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbotron" id="team">
+                <div class="container">
+                    <h2 class="text-center">Quem somos</h2>
+                    <div class="well">
+                        <div class="col-md-2">
+                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <p>Airton Serra</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <p>César Augusto</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <p>Felipe Andrade</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <p>Gustavo Costa</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/pedro.jpg" class="img-circle" height="150px"></img>
+                            <p>Pedro Augusto</p>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <p>Thiago Oliveira</p>
+                        </div>
+                        <p class="text-center">Tema: Incentivo a programação na educação básica.</p>
+                    </div>                   
+                </div>
+            </div>
+            
+            <div class="jumbotron" id="cont">
+                <div class="container">
+                    <h2 class="text-center">Apresentação</h2>
+                    <div class="well">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SrnvvWDm73k"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jumbotron" id="examples">
+                <div class="container">
+                    <h2 class="text-center">Examplos de códigos</h2>
+                    <div class="well">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="img/slide.jpg" alt="Tipo de código 1">
+                                    <div class="carousel-caption">
+                                        Código de entrada e saída 1.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/slide.jpg" alt="Tipo de código 2">
+                                    <div class="carousel-caption">
+                                        Código de entrada e saída 2.
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/slide.jpg" alt="Tipo de código 2">
+                                    <div class="carousel-caption">
+                                        Código de entrada e saída 3.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Próximo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 </html>
