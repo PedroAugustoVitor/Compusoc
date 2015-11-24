@@ -9,15 +9,11 @@
 		<link href="css/theme.css" rel="stylesheet">
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<script>
-			$('body').scrollspy({ target: '#navbar'})
-		</script>
 	</head>
 	<body data-spy="scroll" data-target="#navbar">
         <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    
                     <a class="navbar-brand">Compusoc</a>
                 </div>
 
@@ -27,8 +23,26 @@
                         <li><a href="#team">Equipe</a></li>
                         <li><a href="#cont">Conteúdo</a></li>
                         <li><a href="#examples">Exemplos</a></li>
-
-                       
+                        <li class="dropdown">
+                            <a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Code.org<span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                <li><a href="https://code.org/starwars">StarWars</a></li>
+                                <li><a href="https://code.org/mc">Mine Craft</a></li>
+                                <li><a href="https://studio.code.org/s/frozen">Frozen</a></li>
+                                <li><a href="https://studio.code.org/s/course1">Crianças</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Matérias Relacionadas<span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dLabel">
+                                <li><a href="http://olhardigital.uol.com.br/noticia/escolas-defendem-ensino-de-programacao-a-criancas-e-adolescentes/35075">Olhar Digital</a></li>
+                                <li><a href="https://www.institutoclaro.org.br/blog/conheca-alguns-projetos-que-incentivam-o-ensino-de-programacao-para-criancas-e-adolescentes-/">Instituto Claro</a></li>
+                                <li><a href="http://revistaeducacao.uol.com.br/textos/211/aposta-no-futuroo-ensino-de-programacao-tem-se-espalhado-como-330266-1.asp">Revista Educação</a></li>
+                                <li><a href="http://g1.globo.com/globo-news/noticia/2013/11/ensino-obrigatorio-de-programacao-nas-escolas-e-tema-no-navegador.html">Globo.com</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -49,11 +63,11 @@
                     <h2 class="text-center">Quem somos</h2>
                     <div class="well">
                         <div class="col-md-2">
-                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <img src="img/airton.jpg" class="img-circle" height="150px"></img>
                             <p>Airton Serra</p>
                         </div>
                         <div class="col-md-2">
-                            <img src="img/default.png" class="img-circle" height="150px"></img>
+                            <img src="img/cesar.jpg" class="img-circle" height="150px"></img>
                             <p>César Augusto</p>
                         </div>
                         <div class="col-md-2">
@@ -82,7 +96,7 @@
                     <h2 class="text-center">Apresentação</h2>
                     <div class="well">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SrnvvWDm73k"></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H1-paxNG4kw" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
